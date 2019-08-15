@@ -1,0 +1,9 @@
+127.0.0.1   ansible localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+192.168.100.10 ansible
+192.168.100.11 github
+192.168.100.12 moodle
+192.168.100.13 redmine
+192.168.100.14 samba
+192.168.100.50 postgres
