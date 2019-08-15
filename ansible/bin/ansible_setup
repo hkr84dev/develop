@@ -1,0 +1,17 @@
+
+# make same directories
+cd /vagrant/ansible
+mkdir playbooks
+mkdir inventory
+touch inventory/hosts
+
+# install apps
+yum install -y ansible
+yum install -y expect
+
+# SSH setup
+ssh keygen -t rsa
+# ssh-copy-id ~/ssh/id-rsa.pub root@HOSTNAME
+
+
+ansible all -i inventory/hosts -m ping
