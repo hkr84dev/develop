@@ -13,3 +13,5 @@ SET CTIME=%TIME:~0,2%%TIME:~3,2%
 MKDIR .\%TODAY% 2>NUL
 ECHO. >> .\%TODAY%\%TODAY%.txt
 ECHO %CTIME: =0% >> .\%TODAY%\%TODAY%.txt
+
+exit
